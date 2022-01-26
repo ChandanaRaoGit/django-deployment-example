@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% block body_block %}
+    <h1>Welcome to INDEX!!!</h1>
+    <h3>This is index.html page showing!!!</h3>
+    <!-- <h1>{{ text|upper }}</h1> -->
+    <!-- <h1>{{ text|cut:'hello'}}</h1> -->
+    <!-- text will go as a value and hello will go as arg -->
+
+    <h1>{{ text|cut:'world' }}</h1>
+    <h6>{{ number|add:'20' }}</h6>
+    {% endblock %}

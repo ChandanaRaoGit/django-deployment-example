@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to RELATIVE_URL_TEMPLATE!!</h1>
+    <a href="{% url 'basic_app:other' %}">To OTHER Page</a><br>
+    <a href="{% url 'admin:index' %}">LINK TO ADMIN</a><br>
+    <a href="{% url 'index' %}">LINK TO INDEX</a>
+    <!-- for admin entry will in settings.py INSTALLED_APPS, first entry "django.contrib.admin" -->
+    <!-- don't give space here 'basic_app:other' gives error-->
+
+  </body>
+</html>
